@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">Calculator</a>
+    </header>
+    
+    <section class="calculator">
+        <div class="calculatorCase">
+            <div class="calculatorDisplay">
+                <div class="contextDisplay"></div>
+                <div class="mainDisplay">0</div>
+            </div>
+            <div class="calculatorButtons">
+                <div class="deleteButtons">
+                    <button class="buttonDelete" data-key="Delete">Delete</button>
+                    <button class="buttonClear" data-key="Delete">CE</button>
+                </div>
+
+                <div class="rowButtons">
+                    <button class="buttonNumber" data-choice="7" data-key="7">7</button>
+                    <button class="buttonNumber" data-choice="8" data-key="8">8</button>
+                    <button class="buttonNumber" data-choice="9" data-key="9">9</button>
+                    <button class="buttonOperator" data-choice="*" data-key="*">*</button>
+                </div>
+
+                <div class="rowButtons">
+                    <button class="buttonNumber" data-choice="4" data-key="4">4</button>
+                    <button class="buttonNumber" data-choice="5" data-key="5">5</button>
+                    <button class="buttonNumber" data-choice="6" data-key="6">6</button>
+                    <button class="buttonOperator" data-choice="-" data-key="-">-</button>
+                </div>
+
+                <div class="rowButtons">
+                    <button class="buttonNumber" data-choice="1" data-key="1">1</button>
+                    <button class="buttonNumber" data-choice="2" data-key="2">2</button>
+                    <button class="buttonNumber" data-choice="3" data-key="3">3</button>
+                    <button class="buttonOperator" data-choice="+" data-key="+">+</button>
+                </div>
+
+                <div class="rowButtons">
+                    <button class="buttonOperator" data-choice="/" data-key="/">/</button>
+                    <button class="buttonNumber" data-choice="0" data-key="0">0</button>
+                    <button class="buttonNumber" data-choice="." id="dot" data-key=".">.</button>
+                    <button class="buttonEquals" data-choice="=" data-key="Enter">=</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
